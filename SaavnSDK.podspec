@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
   s.author           = { "Shatrughan Singh" => "shatrughan@jiosaavn.com", "Rishabh Tiwari" => "rishabh.tiwari@saavn.com"}
   s.homepage          = 'https://www.jiosaavn.com/'
-  s.source           = { :git=> "https://github.com/GouravSaavn/SaavnSDKFrameworks.git", :tag => s.version }
+  s.source           = { :git=> "https://github.com/GouravSaavn/SaavnSDKFrameworks.git", :tag => "#{s.version}" }
   s.platform = :ios, "10.0"
   
-  #s.ios.vendored_frameworks = 'SaavnSDK.xcframework'
+  s.ios.vendored_frameworks = 'SaavnSDK.xcframework'
  
   s.dependency 'SocketRocket', '0.5.1'
   s.dependency 'SDWebImage'
