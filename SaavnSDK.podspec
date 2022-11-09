@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "SaavnSDKv3"
+  s.name             = "SaavnSDK"
   s.version          = "2.2.4"
   s.summary          = "JioSaavnSDK for JioTV ios app"
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   
   #s.ios.vendored_frameworks = 'SaavnSDK.xcframework'
  
-  #s.dependency 'SocketRocket', '0.5.1'
-  #s.dependency 'SDWebImage'
-  #s.dependency 'Alamofire', '~> 5.5'
+  s.dependency 'SocketRocket', '0.5.1'
+  s.dependency 'SDWebImage'
+  s.dependency 'Alamofire', '~> 5.5'
 
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) __SvnSenSDK=1' }
   s.user_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) __SvnSenSDK=1' }
