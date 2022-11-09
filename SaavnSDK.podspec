@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "SaavnSDK"
+  s.name             = "SaavnSDKv2"
   s.version          = "2.2.4"
   s.summary          = "JioSaavnSDK for JioTV ios app"
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
