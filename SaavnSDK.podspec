@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
   s.author           = { "Shatrughan Singh" => "shatrughan@jiosaavn.com", "Rishabh Tiwari" => "rishabh.tiwari@saavn.com"}
   s.homepage          = 'https://www.jiosaavn.com/'
-  s.source           = { :http => "https://github.com/GouravSaavn/SaavnSDKFrameworks/tree/main" }
+  s.source           = { :http => "https://github.com/GouravSaavn/SaavnSDKFrameworks/tree/main/SaavnSDK.xcframework" }
   s.platform = :ios, "10.0"
   
   #s.ios.vendored_frameworks = 'SaavnSDK.xcframework'
