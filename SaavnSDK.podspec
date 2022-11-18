@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "SaavnSDK"
-  s.version          = "2.2.7"
+  s.version          = "3.4.1"
   s.summary          = "JioSaavnSDK for JioTV ios app"
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
   s.author           = { "Shatrughan Singh" => "shatrughan@jiosaavn.com", "Rishabh Tiwari" => "rishabh.tiwari@saavn.com"}
   s.homepage          = 'https://www.jiosaavn.com/'
-  s.source           = { :git=> "https://github.com/GouravSaavn/SaavnSDKFrameworks.git", :tag => "#{s.version}" }
+  s.source           = { :http =>"https://s3-cors-test.s3.ap-southeast-1.amazonaws.com/ios-sdk-myjio/new/3.4.1/SaavnSDK.tar.gz"}
   s.platform = :ios, "10.0"
   
   s.ios.vendored_frameworks = 'SaavnSDK.xcframework'
