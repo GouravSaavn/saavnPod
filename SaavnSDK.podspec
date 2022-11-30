@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SaavnSDK"
-  s.version          = "2.2.9"
+  s.version          = "2.3.0"
   s.summary          = "JioSaavnSDK for JioTV ios app"
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
   s.author           = { "Shatrughan Singh" => "shatrughan@jiosaavn.com", "Rishabh Tiwari" => "rishabh.tiwari@saavn.com"}
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
  
   s.dependency 'SocketRocket', '0.5.1'
   s.dependency 'SDWebImage'
-  s.dependency 'Alamofire', '5.5'
+  s.dependency 'Alamofire', '5.4.4'
   s.dependency 'Starscream', '~> 3.1.1'
 
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) __SvnSenSDK=1' }
