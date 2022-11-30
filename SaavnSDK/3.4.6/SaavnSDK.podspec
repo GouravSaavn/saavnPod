@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.dependency 'SocketRocket', '0.5.1'
   s.dependency 'SDWebImage'
   s.dependency 'Starscream', '~> 3.1.1'
-  s.dependency 'Alamofire', '5.4.4'
+  s.dependency 'Alamofire', '5.5'
   
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) __SvnSenSDK=1' }
   s.user_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) __SvnSenSDK=1' }
