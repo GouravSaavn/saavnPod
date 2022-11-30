@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "SaavnSDK"
-  s.version          = "3.4.5"
+  s.version          = "3.4.6"
   s.summary          = "JioSaavnSDK for MyJio ios app"
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
   s.author           = { "Shatrughan Singh" => "shatrughan@saavn.com", "Rishabh Tiwari" => "rishabh.tiwari@saavn.com"}
   s.homepage          = 'https://www.jiosaavn.com/'
-  s.source           = { :http => "https://s3-cors-test.s3.ap-southeast-1.amazonaws.com/ios-sdk-myjio/new/3.4.5/SaavnSDK1.0.tar.gz"}
+  s.source           = { :http => "https://s3-cors-test.s3.ap-southeast-1.amazonaws.com/ios-sdk-myjio/new/3.4.6/SaavnSDK1.0.tar.gz"}
   s.platform = :ios, "10.0"
   
   s.ios.vendored_frameworks = 'SaavnSDK.xcframework'
