@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SaavnSDK"
-  s.version          = "2.3.2"
+  s.version          = "2.3.1"
   s.summary          = "JioSaavnSDK for JioTV ios app"
   s.license          = { :type => 'Commercial', :file => 'LICENSE'}
   s.author           = { "Shatrughan Singh" => "shatrughan@jiosaavn.com", "Rishabh Tiwari" => "rishabh.tiwari@saavn.com"}
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git=> "https://github.com/GouravSaavn/SaavnSDKFrameworks.git", :tag => "#{s.version}" }
   s.platform = :ios, "10.0"
   
-  s.ios.vendored_frameworks = 'SaavnSDK.framework'
+  s.ios.vendored_frameworks = 'SaavnSDK.xcframework'
  
   s.dependency 'SocketRocket', '0.5.1'
   s.dependency 'SDWebImage'
